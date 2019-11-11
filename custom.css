@@ -6,3 +6,57 @@ nav ul li{
 nav ul{
     text-align: justify;
 }
+
+#index{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 30% 30% 30% 10%;
+    grid-template-areas: 
+        "nav nav"
+        "header header"
+        "img1 img2"
+        "img3 img4"
+        "footer footer";
+}
+
+#index nav{
+    grid-area: nav;
+}
+
+#index header{
+    grid-area: header;
+}
+
+#index .mammals{
+    grid-area: img1;
+}
+
+#index .fish{
+    grid-area: img2;
+}
+
+#index .birds{
+    grid-area: img3;
+}
+
+#index .misc{
+    grid-area: img4;
+}
+
+#index footer{
+    grid-area: footer;
+}
+
+#fish, #mammals, #misc, #birds{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 30% 30% 30% 10%;
+    grid-template-areas: 
+        "nav nav"
+        "header header"
+        "img1 info1"
+        "img2 info2"
+        "footer footer";
+}
+
+#fish, #mammals, #misc, #birds 
