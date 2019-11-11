@@ -1,3 +1,3 @@
 <footer>
-    <a href="mailto:dmelkumo@uvm.edu">Email</a>
+    <a href="mailto:amtownse@uvm.edu">Project Lead's Email</a>
 </footer>
