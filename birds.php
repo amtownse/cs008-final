@@ -9,8 +9,8 @@ print PHP_EOL;
             <figcaption>The Kakapo</figcaption>
         </figure>
         <p>
-          The Kakapo is a very interesting bird. It is a nocturnal parrot from New Zealand. However it is also very endangered.
-          Very endangered in this case meaning only about 150-200 birds are still living
+          The Kakapo is a very interesting bird. It is a nocturnal parrot from New Zealand, however it is also very endangered.
+          Very endangered in this case meaning only about 150-200 birds are still living.
           One of the reasons it is so endangered is that it cannot fly. This makes it very easy for predators to catch it.
           One might wonder how, evolutionarily a flightless parrot could come to be. Simply put, it had no natural predators
           in New Zealand until humans came so being flightless would have been ok. However, when humans arrived they brought 
