@@ -1,13 +1,31 @@
+#birds {
+    background-image: url("../images/sky.jpg");
+}
+
+figure, nav, p, footer, h1{
+    background-color: rgba(255,255,255,.5)
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+p{
+    padding:10px;
+}
+
 nav ul li{
     display: inline-block;
     list-style-type: none;
-    margin:0;
     width:16.5%;
     text-align: center;
 }
 
 
+
 nav ul{
+    padding:0;
     text-align: justify;
 }
 
@@ -23,11 +41,11 @@ nav ul{
         "footer footer";
 }
 
-#index nav{
+nav{
     grid-area: nav;
 }
 
-#index header{
+header{
     grid-area: header;
 }
 
@@ -47,7 +65,7 @@ nav ul{
     grid-area: img4;
 }
 
-#index footer{
+footer{
     grid-area: footer;
 }
 
@@ -62,6 +80,8 @@ nav ul{
         "img2 info2"
         "footer footer";
 }
+
+
 
 #fish, #mammals, #misc, #birds :nth-child(3){
     grid-area: img1;
