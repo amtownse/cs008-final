@@ -21,10 +21,10 @@ print PHP_EOL;
         
         <figure>
             <img>
-            <figcaption>Animal 2</figcaption>
+            <figcaption></figcaption>
         </figure>
         <p>
-            THis is alsso epiv placeholder!!
+            My name is david and I like eating chicken nuggets
         </p>
         
         <?php
