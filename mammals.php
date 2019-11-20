@@ -4,7 +4,7 @@ print PHP_EOL;
 ?>
         
         <figure>
-            <img>
+            <img src='images/Jerboa.jpg' alt='Picture of a Jerboa'>
             <figcaption>A majestic Jerboa</figcaption>
         </figure>
         <p>
