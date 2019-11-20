@@ -2,7 +2,11 @@ nav ul li{
     display: inline-block;
     list-style-type: none;
     margin:0;
+    width:25%;
+    text-align: center;
 }
+
+
 nav ul{
     text-align: justify;
 }
@@ -59,18 +63,18 @@ nav ul{
         "footer footer";
 }
 
-#fish, #mammals, #misc, #birds :nth-child(1){
+#fish, #mammals, #misc, #birds :nth-child(3){
     grid-area: img1;
 }
 
-#fish, #mammals, #misc, #birds :nth-child(2){
+#fish, #mammals, #misc, #birds :nth-child(4){
     grid-area: info1;
 }
 
-#fish, #mammals, #misc, #birds :nth-child(3){
+#fish, #mammals, #misc, #birds :nth-child(5){
     grid-area: img2;
 }
 
-#fish, #mammals, #misc, #birds :nth-child(4){
+#fish, #mammals, #misc, #birds :nth-child(6){
     grid-area: info2;
 }
