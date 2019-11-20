@@ -4,7 +4,7 @@ print PHP_EOL;
 ?>
         
         <figure>
-            <img src=images/Gulper.jpg alt='Picture of a Gulper Eel'>
+            <img src='images/Gulper.jpg' alt='Picture of a Gulper Eel'>
             <figcaption>The Gulper Eel</figcaption>
         </figure>
         <p>
@@ -18,7 +18,7 @@ print PHP_EOL;
         </p>
         
         <figure>
-            <img src=images/Batfish.jpg alt='Picture of the Red-lipped Batfish'>
+            <img src='images/Batfish.jpg' alt='Picture of the Red-lipped Batfish'>
             <figcaption>A Red-lipped Batfish</figcaption>
         </figure>
         <p>
