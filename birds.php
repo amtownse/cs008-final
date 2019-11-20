@@ -5,7 +5,7 @@ print PHP_EOL;
 ?>
         
         <figure>
-            <img>
+            <img src='images/Kakapo.jpg' alt='Picture of a Kakapo'>
             <figcaption>The Kakapo</figcaption>
         </figure>
         <p>
