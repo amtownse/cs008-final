@@ -4,8 +4,8 @@ print PHP_EOL;
 ?>
         
         <figure>
-            <img>
-            <figcaption>A Gulper Eel</figcaption>
+            <img src='images/Gulper.jpg alt='Picture of a Gulper Eel'>
+            <figcaption>The Gulper Eel</figcaption>
         </figure>
         <p>
             The Gulper Eel, also known as the Pelican Eel, is a deep-sea fish that is found within the ocean’s temperate and tropical areas.
@@ -18,7 +18,7 @@ print PHP_EOL;
         </p>
         
         <figure>
-            <img>
+            <img src='images/Batfish.jpg alt='Picture of the Red-lipped Batfish'>
             <figcaption>A Red-lipped Batfish</figcaption>
         </figure>
         <p>
