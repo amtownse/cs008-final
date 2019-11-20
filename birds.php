@@ -6,7 +6,7 @@ print PHP_EOL;
         
         <figure>
             <img src='images/Kakapo.jpg' alt='Picture of a Kakapo'>
-            <figcaption>The Kakapo</figcaption>
+            <figcaption><a href='http://nzbirdsonline.org.nz/species/kakapo'>The Kakapo</a></figcaption>
         </figure>
         <p>
           The Kakapo is a very interesting bird. It is a nocturnal parrot from New Zealand, however it is also very endangered.
@@ -21,8 +21,8 @@ print PHP_EOL;
         </p>
         
         <figure>
-            <img>
-            <figcaption>Animal 2</figcaption>
+            <img src='images/Oilbird.jpg' alt='Picture of a Oilbird'>
+            <figcaption><a href='https://www.britannica.com/animal/oilbird'>Oilbird</a></figcaption>
         </figure>
         <p>
           The oilbird is a very interesting bird in its own right. Also, it’s name makes it clear what one of the reasons 
