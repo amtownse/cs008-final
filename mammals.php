@@ -5,7 +5,7 @@ print PHP_EOL;
         
         <figure>
             <img src='images/Jerboa.jpg' alt='Picture of a Jerboa'>
-            <figcaption>A majestic Jerboa</figcaption>
+            <figcaption><a href='https://blog.nationalgeographic.org/2014/02/11/5-jerboa-facts-explaining-cute-jumping-rodent-2/'>A majestic Jerboa</a></figcaption>
         </figure>
         <p>
             The Jerboa is an interesting rodent known for its kangaroo-esque hopping. 
@@ -21,7 +21,7 @@ print PHP_EOL;
         
         <figure>
             <img src='images/Maned.jpg' alt='A picture of a Maned Wolf'>
-            <figcaption>A Maned Wolf</figcaption>
+            <figcaption><a href='https://nationalzoo.si.edu/animals/maned-wolf'>A Maned Wolf</a></figcaption>
         </figure>
         <p>
             My name is david and I like eating chicken nuggets
