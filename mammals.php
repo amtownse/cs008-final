@@ -20,8 +20,8 @@ print PHP_EOL;
         </p>
         
         <figure>
-            <img>
-            <figcaption></figcaption>
+            <img src='images/Maned.jpg' alt='A picture of a Maned Wolf'>
+            <figcaption>A Maned Wolf</figcaption>
         </figure>
         <p>
             My name is david and I like eating chicken nuggets
