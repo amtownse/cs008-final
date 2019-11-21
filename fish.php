@@ -15,6 +15,7 @@ print PHP_EOL;
             As it is a deep-sea fish, it is usually found living in depths ranging from 500 to 6,000 feet. 
             Due to the habitat that these eels live in, it is rare for humans to ever end up seeing one of these creatures naturally. 
             Because of this, a large amount of what we currently know about them come from eels that were accidently caught by deep-sea fishing nets.
+                <a href='http://www.seasky.org/deep-sea/gulper-eel.html'>Source</a>
         </p>
         
         <figure>
@@ -30,6 +31,7 @@ print PHP_EOL;
             Besides its appearance, the Batfish is also known for its modified fins which allows for it to sit on the seafloor as well as walk. 
             As these fish are not good swimmers, they use their dorsal fins to lure in prey which makes it easier for them to hunt. 
             The Red-lipped Batfish doesn’t have any major predators due to its habitat being so far underwater, but rising sea temperatures might cause problems for the species in the future.
+                <a href='https://galapagosconservation.org.uk/galapagos-conservation-trust/'>Source</a>
         </p>
         
         <?php
