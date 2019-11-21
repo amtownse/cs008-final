@@ -5,7 +5,7 @@ print PHP_EOL;
         
         <figure>
             <img src='images/Gulper.png' alt='Picture of a Gulper Eel'>
-            <figcaption>The Gulper Eel</figcaption>
+                <figcaption><a href='https://www.ourbreathingplanet.com/gulper-eel/'>The Gulper Eel</a></figcaption>
         </figure>
         <p>
             The Gulper Eel, also known as the Pelican Eel, is a deep-sea fish that is found within the ocean’s temperate and tropical areas.
@@ -19,7 +19,7 @@ print PHP_EOL;
         
         <figure>
             <img src='images/Batfish.jpg' alt='Picture of the Red-lipped Batfish'>
-            <figcaption>A Red-lipped Batfish</figcaption>
+            <figcaption><a href='https://www.youtube.com/watch?v=JuMGmS32YvY'>A Red-lipped Batfish</a></figcaption>
         </figure>
         <p>
             The Red-lipped Batfish is another fish that is quite unusual to see. 
