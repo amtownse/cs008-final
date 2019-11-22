@@ -17,6 +17,7 @@ print PHP_EOL;
             For food, the Jerboa chooses to eat desert plants and roots. 
             It doesn’t actually drink water naturally, but rather obtains it through the moisture it finds in its foods. 
             These rodents can actually be kept as pets, but are not allowed in the United States due to African rodents being banned by the CDC.
+                <a href='https://www.britannica.com/animal/jerboa'>Source</a>
         </p>
         
         <figure>
@@ -24,7 +25,15 @@ print PHP_EOL;
             <figcaption><a href='https://nationalzoo.si.edu/animals/maned-wolf'>A Maned Wolf</a></figcaption>
         </figure>
         <p>
-            My name is david and I like eating chicken nuggets
+           The Maned Wolf is another mammal that is quite interesting. 
+           These quick creatures are usually found within South America including Argentina, Brazil, and Paraguay. 
+           Despite its name, the Maned Wolf is not actually a wolf, but a canid. 
+           Unlike real wolves, Maned Wolves are solitary creatures and usually do not interact with each other besides breeding season. 
+           Like many species, they use urine and feces to mark their territory from other competitors. 
+           The strange thing though is that their urine has been described by many to resemble the smell of cannabis. 
+           Unfortunately, Maned Wolf population is currently being threatened by human impacts. 
+           The combined effects of habitat loss, introduction of diseases, and being hunted by humans has resulted in the Maned Wolf being put in the “Near Threatened” category by the IUCN and the “Endangered” category by both the USFWS as well as Brazil.   
+                <a href='https://nationalzoo.si.edu/animals/maned-wolf>Source</a>
         </p>
         
         <?php
