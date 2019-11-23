@@ -4,7 +4,7 @@ print PHP_EOL;
 ?>
         
         <figure>
-            <img href='Mata.jpg' alt='A picture of a Mata Mata turtle'>
+            <img href='images/Mata.jpg' alt='A picture of a Mata Mata turtle'>
             <figcaption><a href='https://animalsking.com/matamata-turtle-the-lifestyle-and-habitat-of-a-turtle-matamata/'>Mata Mata</a></figcaption>
         </figure>
         <p>
@@ -21,11 +21,18 @@ print PHP_EOL;
         </p>
         
         <figure>
-            <img>
-            <figcaption>Animal 2</figcaption>
+            <img href='images/Frog.jpg' alt="A picture of Wallace's Flying Frog">
+            <figcaption><a href='https://www.icr.org/article/when-frogs-fly'>Wallace's Flying Frog</a></figcaption>
         </figure>
         <p>
-            THis is alsso epiv placeholder!!
+            Wallace’s Flying Frog, also known as the Abah River flying frog or parachute frogs, are a type of amphibian that has the ability to glide up to 50 feet.
+            They acquired their name from a biologist named Alfred Wallace who was the first scientist to collect the specimen. 
+            These small animals are usually found inhabiting dense jungles in Asia. 
+            They are a unique and interesting species due to being able to glide as well as swim and hop. 
+            Wallace’s Flying Frogs spend most of their time in trees, only coming down for mating and egg laying.
+            When they are searching for insects to eat or escaping from potential predators like tree snakes, they will leap from the tree branches and glide to the many surrounding trees.
+            The population is currently healthy and abundant but could possibly be impacted by the dwindling Asian rhino count as they often use holes created by the rhinos to lay eggs.
+            <a href='https://www.nationalgeographic.com/animals/amphibians/w/wallaces-flying-frog/'>Source</a>
         </p>
         
         <?php
