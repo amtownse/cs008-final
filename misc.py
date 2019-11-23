@@ -4,7 +4,7 @@ print PHP_EOL;
 ?>
         
         <figure>
-            <img href='images/Mata.jpg' alt='A picture of a Mata Mata turtle'>
+            <img src='images/Mata.jpg' alt='A picture of a Mata Mata turtle'>
             <figcaption><a href='https://animalsking.com/matamata-turtle-the-lifestyle-and-habitat-of-a-turtle-matamata/'>Mata Mata</a></figcaption>
         </figure>
         <p>
@@ -21,7 +21,7 @@ print PHP_EOL;
         </p>
         
         <figure>
-            <img href='images/Frog.jpg' alt="A picture of Wallace's Flying Frog">
+            <img src='images/Frog.jpg' alt="A picture of Wallace's Flying Frog">
             <figcaption><a href='https://www.icr.org/article/when-frogs-fly'>Wallace's Flying Frog</a></figcaption>
         </figure>
         <p>
