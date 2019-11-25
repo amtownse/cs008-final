@@ -2,8 +2,32 @@
     background-image: url("../images/sky.jpg");
 }
 
+#fish {
+    background-image: url("../images/water.jpg");
+}
+
+#mammals {
+    background-image: url("../images/land.jpg");
+}
+
 figure, nav, p, footer, h1{
     background-color: rgba(255,255,255,.5)
+}
+
+img{
+    width:100%;
+}
+
+a{
+    color: black;
+}
+
+.activePage{
+    color: white;
+}
+
+figure{
+    text-align: center;
 }
 
 h1{
@@ -15,19 +39,51 @@ p{
     padding:10px;
 }
 
+nav ul li a{
+    padding:9% 30%;
+}
+
 nav ul li{
     display: inline-block;
     list-style-type: none;
     width:16.5%;
+    padding: 1% 0%;
     text-align: center;
 }
-
 
 
 nav ul{
     padding:0;
     text-align: justify;
+    width:100%;
 }
+
+
+
+
+nav a{
+    background-color: greenyellow;
+    padding: 9% 30%;
+    transition: padding 1s;
+}
+
+nav a:hover{
+    background-color: yellow;
+    padding: 9% 40%;
+}
+
+
+@keyframes colorChange{
+    0%   {color: black}
+    50%   {color: white}
+    100%   {color: black}
+}
+
+.activePage a{
+    animation: colorChange 0.9s ease 0.9s 10000000000;
+}
+
+
 
 #index{
     display: grid;
@@ -41,7 +97,13 @@ nav ul{
         "footer footer";
 }
 
-nav{
+
+#index figure{
+    padding:0;
+    margin:0;
+    width:100%;
+}
+    nav{
     grid-area: nav;
 }
 
@@ -49,19 +111,19 @@ header{
     grid-area: header;
 }
 
-#index .mammals{
+#index:nth-child(3){
     grid-area: img1;
 }
 
-#index .fish{
+#index:nth-child(4){
     grid-area: img2;
 }
 
-#index .birds{
+#index:nth-child(5){
     grid-area: img3;
 }
 
-#index .misc{
+#index:nth-child(6){
     grid-area: img4;
 }
 
@@ -97,4 +159,27 @@ footer{
 
 #fish, #mammals, #misc, #birds :nth-child(6){
     grid-area: info2;
+}
+
+
+@media all and (max-width: 850px) {
+    nav ul li{
+        padding: 1% 5%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #fish, #mammals, #misc, #birds{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 5% 10% 20% 20% 20% 20% 20%;
+        grid-template-areas: 
+            "nav"
+            "header"
+            "img1"
+            "info1"
+            "img2"
+            "info2"
+            "footer";
+}
 }
