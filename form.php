@@ -36,8 +36,8 @@ function verifyAlphaNum($testString) {
                 $radFavAnimal = getData("radFavAnimal");
                 $lstDonation = getData("lstDonation");
                 $chkNewsletter = getData("chkNewsletter");
-                $chkSpreadInfo = getData("chkSpreadInfo");
-                $chkBigAlHelp = getData("chkBigAlHelp");
+                $chkPermission = getData("chkPermission");
+                $chkFollow = getData("chkFollow");
             
             
                 //validation
@@ -82,9 +82,9 @@ function verifyAlphaNum($testString) {
             
             if ($dataValid) {
                 try {
-                    $sql = 'INSERT INTO tblLab8 (fldFirstName, fldLastName, fldEmail, fldDonation, fldAnimal, fldNewsletter, fldSpreadInfo, fldBigAlHelp) VALUES (?, ?, ?, ?, ?, ?, ?, ?)';
+                    $sql = 'INSERT INTO tblAnimalSurvey (fldFirstName, fldLastName, fldEmail, fldDonation, fldAnimal, fldNewsletter, fldPermission, fldFollow) VALUES (?, ?, ?, ?, ?, ?, ?, ?)';
                     $statement = $pdo->prepare($sql);
-                    $params = [$txtFirstName, $txtLastName, $email, $lstDonation, $radFavAnimal, $chkNewsletter, $chkSpreadInfo, $chkBigAlHelp];
+                    $params = [$txtFirstName, $txtLastName, $email, $lstDonation, $radFavAnimal, $chkNewsletter, $chkPermission, $chkFollow];
                     $statement->execute($params);
                     print '<p>Record Inserted.</p>';
                 } catch (PDOException $e) {
@@ -173,12 +173,12 @@ function verifyAlphaNum($testString) {
                     <label for="chkNewsletter">I agree to subscribe to the weekly newsletter</label>
                 </p>
                 <p>
-                    <input type="checkbox" value="1" name="chkSpreadInfo" id="chkSpreadInfo">
-                    <label for="chkSpreadInfo">I will spread the info I learned about these cool animals</label>
+                    <input type="checkbox" value="1" name="chkPermission" id="chkPermission">
+                    <label for="chkPermission">I give permission to use my data</label>
                 </p>
                 <p>
-                    <input type="checkbox" value="1" name="chkBigAlHelp" id="chkBigAlHelp">
-                    <label for="chkBigAlHelp">BIG AL HELP</label>
+                    <input type="checkbox" value="1" name="chkFollow" id="chkFollow">
+                    <label for="chkFollow">I will follow Cool Animals on other social media</label>
                 </p>
             </fieldset>
             <p>
