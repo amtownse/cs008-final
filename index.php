@@ -109,12 +109,12 @@ include ("top.php");
                 <tr>
                     <th>Name</th>
                     <th>Habitat</th>
-                    <th>Weight</th>
-                    <th>Length/Height</th>
-                    <th>Lifespan</th>
+                    <th>Weight (lbs)</th>
+                    <th>Length/Height (m)</th>
+                    <th>Lifespan (years)</th>
                 </tr>
                 <?php
-                $sql2 = 'SELECT fldName, fldHabitat, fldWeight, fldlength, fldLifespan FROM `tblAnimalInfo`';
+                $sql2 = 'SELECT fldName, fldHabitat, fldWeight, fldLength, fldLifespan FROM `tblAnimalInfo`';
                 $statement2 = $pdo->prepare($sql2);
                 $statement2->execute();
                 $rows = $statement2->fetchAll();
