@@ -7,12 +7,10 @@ include ("top.php");
                 <a href="mammals.php">
                 <h3>Jerboa</h3>
                 <figure>
-                    <img 
-                        src="images/Jerboa.jpg" 
-                        srcset=" w,
+                    <img srcset=" w,
                                   w" 
                         sizes="(max-width: px) vw"
-                        alt="A Jerboa">
+                        src="images/Jerboa.jpg" alt="A Jerboa">
                     <figcaption>caption</figcaption>
                 </figure>
                 </a>
@@ -20,12 +18,10 @@ include ("top.php");
                 <a href="mammals.php">
                 <h3>Maned Wolf</h3>
                 <figure>
-                    <img 
-                        src="images/Maned.jpg" 
-                        srcset=" w,
+                    <img srcset=" w,
                                   w" 
                         sizes="(max-width: px) vw"
-                        alt="A Maned Wolf">
+                        src="images/Maned.jpg" alt="A Maned Wolf">
                     <figcaption>caption</figcaption>
                 </figure>
                 </a>
@@ -37,12 +33,10 @@ include ("top.php");
                 <a href="birds.php">
                 <h3>Kakapo</h3>
                 <figure>
-                    <img 
-                        src="images/Kakapo.jpg" 
-                        srcset=" w,
+                    <img srcset=" w,
                                   w" 
                         sizes="(max-width: px) vw"
-                        alt="A Kakapo">
+                        src="images/Kakapo.jpg" alt="A Kakapo">
                     <figcaption>caption</figcaption>
                 </figure>
                 </a>
@@ -50,12 +44,10 @@ include ("top.php");
                 <a href="birds.php">
                 <h3>Oilbird</h3>
                 <figure>
-                    <img 
-                        src="images/Oilbird.jpg" 
-                        srcset=" w,
+                    <img srcset=" w,
                                   w" 
                         sizes="(max-width: px) vw"
-                        alt="An Oilbird">
+                        src="images/Oilbird.jpg" alt="An Oilbird">
                     <figcaption>caption</figcaption>
                 </figure>
                 </a>
@@ -67,12 +59,10 @@ include ("top.php");
                 <a href="fish.php">
                 <h3>Gulper Eel</h3>
                 <figure>
-                    <img 
-                        src="images/Gulper.png" 
-                        srcset=" w,
+                    <img srcset=" w,
                                   w" 
                         sizes="(max-width: px) vw"
-                        alt="A Gulper Eel">
+                        src="images/Gulper.png" alt="A Gulper Eel">
                     <figcaption>caption</figcaption>
                 </figure>
                 </a>
@@ -80,12 +70,10 @@ include ("top.php");
                 <a href="fish.php">
                 <h3>Red-Lipped Batfish</h3>
                 <figure>
-                    <img
-                        src="images/Batfish.jpg" 
-                        srcset=" w,
+                    <img srcset=" w,
                                   w" 
                         sizes="(max-width: px) vw"
-                        alt="A Red-Lipped Batfish">
+                        src="images/Batfish.jpg" alt="A Red-Lipped Batfish">
                     <figcaption>caption</figcaption>
                 </figure>
                 </a>
@@ -97,12 +85,10 @@ include ("top.php");
                 <a href="misc.php">
                 <h3>Mata Mata</h3>
                 <figure>
-                    <img
-                        src="images/Mata.jpg" 
-                        srcset=" w,
+                    <img srcset=" w,
                                   w" 
                         sizes="(max-width: px) vw"
-                        alt="A Mata Mata">
+                        src="images/Mata.jpg" alt="A Mata Mata">
                     <figcaption>caption</figcaption>
                 </figure>
                 </a>
@@ -110,16 +96,43 @@ include ("top.php");
                 <a href="misc.php">
                 <h3>Wallace's Flying Frog</h3>
                 <figure>
-                    <img
-                        src="images/Frog.jpg" 
-                        srcset=" w,
+                    <img srcset=" w,
                                   w" 
                         sizes="(max-width: px) vw"
-                        alt="A Wallace's Flying Frog">
+                        src="images/Frog.jpg" alt="A Wallace's Flying Frog">
                     <figcaption>caption</figcaption>
                 </figure>
                 </a>
             </section>
+            <table>
+                <caption>Basic Information</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Habitat</th>
+                    <th>Weight</th>
+                    <th>Length/Height</th>
+                    <th>Lifespan</th>
+                </tr>
+                <?php
+                $sql2 = 'SELECT fldName, fldHabitat, fldWeight, fldlength, fldLifespan FROM `tblAnimalInfo`';
+                $statement2 = $pdo->prepare($sql2);
+                $statement2->execute();
+                $rows = $statement2->fetchAll();
+                
+                foreach ($rows as $row) {
+                    print '<tr>';
+                    print '<td>' . $row['fldName'] . '</td>';
+                    print '<td>' . $row['fldHabitat'] . '</td>';
+                    print '<td>' . $row['fldWeight'] . '</td>';
+                    print '<td>' . $row['fldLength'] . '</td>';
+                    print '<td>' . $row['fldLifespan'] . '</td>';
+                    print '</tr>';
+                }
+                ?>
+                <tr>
+                    <td colspan="5" class="center"><a href="">Citation</a></td>
+                </tr>
+            </table>
         </main>
         <?php
         include ("footer.php");
