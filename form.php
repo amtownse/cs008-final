@@ -94,7 +94,7 @@ function verifyAlphaNum($testString) {
                 $to = $email;
                 $from = 'David Melkumov <dmelkumo@uvm.edu>';
                 $subject = 'CS 008 Final Project';
-                $mailMessage = '<p style="font: 15pt Arial;">Your feedback has been subitted.</p><p>You will not recieve any more emails unless you signed up for our weekly newsletter</p><p>David Melkumov, Alexander Townsend, Vincent Lai</p>';
+                $mailMessage = '<p style="font: 15pt Arial;">Your feedback has been submitted.</p><p>You will not recieve any more emails unless you signed up for our weekly newsletter</p><p>David Melkumov, Alexander Townsend, Vincent Lai</p>';
                 $headers = "MIME-Version: 1.0\r\n";
                 $headers .= "Content-type: text/html; charset=utf-8\r\n";
                 $headers .= "From: " . $from . "\r\n";
