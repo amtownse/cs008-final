@@ -18,10 +18,6 @@ print PHP_EOL;
                 <a href='http://www.seasky.org/deep-sea/gulper-eel.html'>Source</a>
         </p>
         
-        <figure>
-            <img src='images/Batfish.jpg' alt='Picture of the Red-lipped Batfish'>
-            <figcaption><a href='https://www.youtube.com/watch?v=JuMGmS32YvY'>A Red-lipped Batfish</a></figcaption>
-        </figure>
         <p>
             The Red-lipped Batfish is another fish that is quite unusual to see. 
             It is one of the many organisms that were named after scientist Charles Darwin. 
@@ -33,6 +29,10 @@ print PHP_EOL;
             The Red-lipped Batfish doesn’t have any major predators due to its habitat being so far underwater, but rising sea temperatures might cause problems for the species in the future.
                 <a href='https://galapagosconservation.org.uk/galapagos-conservation-trust/'>Source</a>
         </p>
+        <figure>
+            <img src='images/Batfish.jpg' alt='Picture of the Red-lipped Batfish'>
+            <figcaption><a href='https://www.youtube.com/watch?v=JuMGmS32YvY'>A Red-lipped Batfish</a></figcaption>
+        </figure>
         
         <?php
         include("footer.php");
