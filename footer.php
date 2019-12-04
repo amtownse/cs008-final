@@ -1,3 +1,3 @@
 <footer>
-    <p> Alexander Townsend section B, Vincent Lai section B, David Melkumov section B </p>
+    <p> Alexander Townsend, Vincent Lai, David Melkumov </p>
 </footer>
