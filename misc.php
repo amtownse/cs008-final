@@ -20,10 +20,6 @@ print PHP_EOL;
             <a href='https://nationalzoo.si.edu/animals/matamata-turtle'>Source</a>
         </p>
         
-        <figure>
-            <img src='images/Frog.jpg' alt="A picture of Wallace's Flying Frog">
-            <figcaption><a href='https://www.icr.org/article/when-frogs-fly'>Wallace's Flying Frog</a></figcaption>
-        </figure>
         <p>
             Wallace’s Flying Frog, also known as the Abah River flying frog or parachute frogs, are a type of amphibian that has the ability to glide up to 50 feet.
             They acquired their name from a biologist named Alfred Wallace who was the first scientist to collect the specimen. 
@@ -34,6 +30,10 @@ print PHP_EOL;
             The population is currently healthy and abundant but could possibly be impacted by the dwindling Asian rhino count as they often use holes created by the rhinos to lay eggs.
             <a href='https://www.nationalgeographic.com/animals/amphibians/w/wallaces-flying-frog/'>Source</a>
         </p>
+        <figure>
+            <img src='images/Frog.jpg' alt="A picture of Wallace's Flying Frog">
+            <figcaption><a href='https://www.icr.org/article/when-frogs-fly'>Wallace's Flying Frog</a></figcaption>
+        </figure>
         
         <?php
         include("footer.php");
