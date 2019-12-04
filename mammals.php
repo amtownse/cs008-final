@@ -20,10 +20,6 @@ print PHP_EOL;
                 <a href='https://www.britannica.com/animal/jerboa'>Source</a>
         </p>
         
-        <figure>
-            <img src='images/Maned.jpg' alt='A picture of a Maned Wolf'>
-            <figcaption><a href='https://nationalzoo.si.edu/animals/maned-wolf'>A Maned Wolf</a></figcaption>
-        </figure>
         <p>
            The Maned Wolf is another mammal that is quite interesting. 
            These quick creatures are usually found within South America including Argentina, Brazil, and Paraguay. 
@@ -35,6 +31,10 @@ print PHP_EOL;
            The combined effects of habitat loss, introduction of diseases, and being hunted by humans has resulted in the Maned Wolf being put in the “Near Threatened” category by the IUCN and the “Endangered” category by both the USFWS as well as Brazil.   
                 <a href='https://nationalzoo.si.edu/animals/maned-wolf'>Source</a>
         </p>
+        <figure>
+            <img src='images/Maned.jpg' alt='A picture of a Maned Wolf'>
+            <figcaption><a href='https://nationalzoo.si.edu/animals/maned-wolf'>A Maned Wolf</a></figcaption>
+        </figure>
         
         <?php
         include("footer.php");
