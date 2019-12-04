@@ -1,3 +1,3 @@
 <footer>
-    <a href="mailto:amtownse@uvm.edu">Project Lead's Email</a>
+    <p> Alexander Townsend section B, Vincent Lai section B, David Melkumov section B </p>
 </footer>
