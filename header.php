@@ -1,5 +1,6 @@
 <header>
     <h1>
+    <!-- Determine the content of the h1 tag based on filename -->
     <?php
     if ($path_parts['filename'] == "index") {
         print 'Gallery';
@@ -18,6 +19,9 @@
     }
     if ($path_parts['filename'] == "form") {
         print 'Registration';
+    }
+    if ($path_parts['filename'] == "sql") {
+        print 'SQL Statements';
     }
     ?>
     </h1>
