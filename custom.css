@@ -22,8 +22,12 @@
     background-image: url("../images/hills.jpg");
 }
 
-figure, nav, p, footer, h1, h2, h3{
+figure, nav, p, footer, h1, h2, h3, table, caption{
     background-color: rgba(255,255,255,.5)
+}
+
+tr:nth-child(even){
+    background-color: rgba(0,255,0,.5)
 }
 
 img{
@@ -108,18 +112,24 @@ figcaption, h2, h3{
     background-color: green;
 }
 
+
+
 #index{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 10% 20% 30% 30% 10%;
+    grid-template-rows: 10% 20% 30% 30% 20% 10%;
     grid-template-areas: 
         "nav nav"
         "header header"
         "mammals fish"
         "birds misc"
+        "table table"
         "footer footer";
 }
 
+#index table{
+    grid-area: table;
+}
 
 nav{
     grid-area: nav;
@@ -209,7 +219,7 @@ footer{
     #index{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 10% 20% 30% 30% 30% 30% 10%;
+        grid-template-rows: 10% 20% 30% 30% 30% 30% 20% 10%;
         grid-template-areas: 
             "nav"
             "header"
@@ -217,6 +227,7 @@ footer{
             "fish"
             "birds"
             "misc"
+            "table"
             "footer";
     }
 }
@@ -225,11 +236,12 @@ footer{
     #index{
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 10% 20% 30% 10%;
+        grid-template-rows: 10% 20% 30% 30% 10%;
         grid-template-areas: 
             "nav nav nav nav"
             "header header header header"
             "mammals fish birds misc"
+            "table table . ."
             "footer footer footer footer";
     }
 }
