@@ -119,18 +119,21 @@ function verifyAlphaNum($testString) {
         ?>
         <form action="#" method="POST">
             <!-- Text entry (name and email) -->
-            <p>
-                <label for="txtFirstName">First Name:</label>
-                <input type="text" id="txtFirstName" name="txtFirstName" placeholder="First Name" required>
-            </p>
-            <p>
-                <label for="txtLastName">Last Name:</label>
-                <input type="text" id="txtLastName" name="txtLastName" placeholder="Last Name" required>
-            </p>
-            <p>
-                <label for="txtEmail">Email:</label>
-                <input type="text" id="txtEmail" name="txtEmail" placeholder="Email Address" required>
-            </p>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p>
+                    <label for="txtFirstName">First Name:</label>
+                    <input type="text" id="txtFirstName" name="txtFirstName" placeholder="First Name" required>
+                </p>
+                <p>
+                    <label for="txtLastName">Last Name:</label>
+                    <input type="text" id="txtLastName" name="txtLastName" placeholder="Last Name" required>
+                </p>
+                <p>
+                    <label for="txtEmail">Email:</label>
+                    <input type="text" id="txtEmail" name="txtEmail" placeholder="Email Address" required>
+                </p>
+            </fieldset>
             
             <!-- Radio buttons for favorite animal -->
             <fieldset>
@@ -179,7 +182,6 @@ function verifyAlphaNum($testString) {
                     <option value="20">$20</option>
                 </select>
             </p>
-            <p></p>
             
             <!-- Check boxes with extra options -->
             <fieldset>
