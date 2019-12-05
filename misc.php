@@ -2,7 +2,7 @@
 include("top.php");
 print PHP_EOL;
 ?>
-        
+        <!-- Mata Mata info and image -->
         <figure>
             <img src='images/Mata.jpg' alt='A picture of a Mata Mata turtle'>
             <figcaption><a href='https://animalsking.com/matamata-turtle-the-lifestyle-and-habitat-of-a-turtle-matamata/'>Mata Mata</a></figcaption>
@@ -20,6 +20,7 @@ print PHP_EOL;
             <a href='https://nationalzoo.si.edu/animals/matamata-turtle'>Source</a>
         </p>
         
+        <!-- Frog info and image -->
         <p>
             Wallace’s Flying Frog, also known as the Abah River flying frog or parachute frogs, are a type of amphibian that has the ability to glide up to 50 feet.
             They acquired their name from a biologist named Alfred Wallace who was the first scientist to collect the specimen. 
