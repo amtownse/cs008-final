@@ -2,7 +2,7 @@
 include("top.php");
 print PHP_EOL;
 ?>
-        
+        <!-- Jerboa image and info -->
         <figure>
             <img src='images/Jerboa.jpg' alt='Picture of a Jerboa'>
             <figcaption><a href='https://blog.nationalgeographic.org/2014/02/11/5-jerboa-facts-explaining-cute-jumping-rodent-2/'>A majestic Jerboa</a></figcaption>
@@ -20,6 +20,7 @@ print PHP_EOL;
                 <a href='https://www.britannica.com/animal/jerboa'>Source</a>
         </p>
         
+        <!-- Maned Wolf image and info -->
         <p>
            The Maned Wolf is another mammal that is quite interesting. 
            These quick creatures are usually found within South America including Argentina, Brazil, and Paraguay. 
