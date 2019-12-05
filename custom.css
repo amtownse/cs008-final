@@ -22,7 +22,7 @@
     background-image: url("../images/hills.jpg");
 }
 
-figure, nav, p, footer, h1, h2, h3, table, caption{
+figure, nav, p, footer, h1, h2, h3, table, caption, pre, legend{
     background-color: rgba(255,255,255,.5)
 }
 
