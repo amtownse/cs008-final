@@ -35,6 +35,9 @@ $pdo = new PDO($dsn, $dbUserName, $dbPassword);
     if ($path_parts['filename'] == "form") {
         print '<title>Registration</title>';
     }
+    if ($path_parts['filename'] == "sql") {
+        print '<title>SQL Statements</title>';
+    }
     ?>
     <meta charset="UTF-8">
     <meta name="author" content="David Melkumov, Alexander Townsend, Vincent Lai">
