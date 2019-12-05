@@ -1,7 +1,7 @@
 <?php
 include ("top.php");
 ?>
-        <main> <!-- Mammals Section -->
+         <!-- Mammals Section -->
             <section>
                 <h2>Mammals</h2>
                 <a href="mammals.php">
@@ -112,7 +112,6 @@ include ("top.php");
                     <td colspan="5" class="center"><a href="">Citation</a></td>
                 </tr>
             </table>
-        </main>
         <?php
         include ("footer.php");
         ?>
