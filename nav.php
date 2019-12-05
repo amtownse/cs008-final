@@ -1,5 +1,6 @@
 <nav>
     <ul>
+        <!-- Determine active page based on filename and add all pages to nav -->
         <?php
         print '<li class="';
         if ($path_parts['filename'] == "index") {
