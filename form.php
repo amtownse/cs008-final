@@ -2,8 +2,10 @@
 include ("top.php");
 print PHP_EOL;
 
+//boolean to flag if invalid data
 $dataValid = false;
 
+//Function for getting data from form submission
 function getData($field) {
     if (!isset($_POST[$field])) {
         $data = "";
@@ -21,13 +23,16 @@ function verifyAlphaNum($testString) {
 }
 ?>
         <?php
-            print '<p>Post Array:</p><pre>';
-            print_r($_POST);
-            print '</pre>';
+            //not sure if i need this
+            //print '<p>Post Array:</p><pre>';
+            //print_r($_POST);
+            //print '</pre>';
             
+            //To begin only when submit button is pressed
             if (isset($_POST['btnSubmit'])) {
                 $dataValid = true;
-
+                
+                //get data from form
                 $email = getData("txtEmail");
                 $email = filter_var($email, FILTER_SANITIZE_EMAIL);
                
@@ -40,7 +45,7 @@ function verifyAlphaNum($testString) {
                 $chkFollow = getData("chkFollow");
             
             
-                //validation
+                //validation for missing or invalid data
                 if ($email == "") {
                     print '<p class="mistake">Enter your email address.</p>';
                     $dataValid = false;
@@ -80,6 +85,7 @@ function verifyAlphaNum($testString) {
 
             }
             
+            //if everything required is present and valid, insert them into table in database
             if ($dataValid) {
                 try {
                     $sql = 'INSERT INTO tblAnimalSurvey (fldFirstName, fldLastName, fldEmail, fldDonation, fldAnimal, fldNewsletter, fldPermission, fldFollow) VALUES (?, ?, ?, ?, ?, ?, ?, ?)';
@@ -88,9 +94,10 @@ function verifyAlphaNum($testString) {
                     $statement->execute($params);
                     print '<p>Record Inserted.</p>';
                 } catch (PDOException $e) {
-                    print '<p>Unable to insert record.</p>';
+                    print '<p>Unable to Insert Record.</p>';
                 }
                 
+                //create the email to be sent upon successful completion of the survey
                 $to = $email;
                 $from = 'David Melkumov <dmelkumo@uvm.edu>';
                 $subject = 'CS 008 Final Project';
@@ -104,11 +111,14 @@ function verifyAlphaNum($testString) {
                 if ($mailedSent) {
                     print "<p>Confirmation email sent.</p>";
                 }
+                
+                //notify the user that their response has been submitted
                 print '<h2>Thank you for taking the time to fill out our survey</h2>';
                 die();
             }
         ?>
         <form action="#" method="POST">
+            <!-- Text entry (name and email) -->
             <p>
                 <label for="txtFirstName">First Name:</label>
                 <input type="text" id="txtFirstName" name="txtFirstName" placeholder="First Name" required>
@@ -121,6 +131,8 @@ function verifyAlphaNum($testString) {
                 <label for="txtEmail">Email:</label>
                 <input type="text" id="txtEmail" name="txtEmail" placeholder="Email Address" required>
             </p>
+            
+            <!-- Radio buttons for favorite animal -->
             <fieldset>
                 <legend>Which animal was your favorite?</legend>
                 <p>
@@ -156,6 +168,8 @@ function verifyAlphaNum($testString) {
                     <label for="radFrog">Wallace's Flying Frog</label>
                 </p>
             </fieldset>
+            
+            <!-- list to select donation amount -->
             <p>
                 How much do you plan on donating to our cause? 
                 <select name="lstDonation">
@@ -166,6 +180,8 @@ function verifyAlphaNum($testString) {
                 </select>
             </p>
             <p></p>
+            
+            <!-- Check boxes with extra options -->
             <fieldset>
                 <legend>Extra Options</legend>
                 <p>
