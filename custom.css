@@ -10,7 +10,19 @@
     background-image: url("../images/land.jpg");
 }
 
-figure, nav, p, footer, h1{
+#form {
+    background-image: url("../images/forest.jpg");
+}
+
+#misc {
+    background-image: url("../images/nature.jpg");
+}
+
+#index {
+    background-image: url("../images/hills.jpg");
+}
+
+figure, nav, p, footer, h1, h2, h3{
     background-color: rgba(255,255,255,.5)
 }
 
@@ -77,6 +89,10 @@ figcaption, h2, h3{
     text-align: center;
 }
 
+#mistake{
+    background-color: red;
+}
+
 
 @keyframes colorChange{
     0%   {color: black}
@@ -88,7 +104,9 @@ figcaption, h2, h3{
     animation: colorChange 0.9s ease 0.9s 10000000000;
 }
 
-
+.activePage{
+    background-color: green;
+}
 
 #index{
     display: grid;
