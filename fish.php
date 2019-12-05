@@ -2,7 +2,7 @@
 include("top.php");
 print PHP_EOL;
 ?>
-        
+        <!-- Gulper Eel image and info -->
         <figure>
             <img src='images/Gulper.png' alt='Picture of a Gulper Eel'>
                 <figcaption><a href='https://www.ourbreathingplanet.com/gulper-eel/'>The Gulper Eel</a></figcaption>
@@ -18,6 +18,7 @@ print PHP_EOL;
                 <a href='http://www.seasky.org/deep-sea/gulper-eel.html'>Source</a>
         </p>
         
+        <!-- Red-Lipped Batfish image and info -->
         <p>
             The Red-lipped Batfish is another fish that is quite unusual to see. 
             It is one of the many organisms that were named after scientist Charles Darwin. 
