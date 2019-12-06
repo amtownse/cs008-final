@@ -1,4 +1,5 @@
 /* ======================= Background Images ========================= */
+
 #birds {
     background-image: url("../images/sky.jpg");
 }
@@ -7,31 +8,25 @@
     background-image: url("../images/water.jpg");
 }
 
-#mammals {
-    background-image: url("../images/land.jpg");
-}
-
 #form {
     background-image: url("../images/forest.jpg");
-}
-
-#misc {
-    background-image: url("../images/nature.jpg");
 }
 
 #index {
     background-image: url("../images/hills.jpg");
 }
 
-/* ====================== General Section =========================== */
-figure, table, footer, h1, h2, h3, fieldset, form > p, legend, figure + p, .needsBackground, caption{
-    background-color: rgba(255,255,255,.5);
-    font-family: "Comic Sans MS", cursive;
+#mammals {
+    background-image: url("../images/land.jpg");
 }
 
-img{
-    width:100%;
+#misc {
+    background-image: url("../images/nature.jpg");
 }
+
+
+
+/* ====================== General Section =========================== */
 
 a{
     color: black;
@@ -41,13 +36,10 @@ figure{
     text-align: center;
 }
 
-h1{
-    text-align: center;
-    color: blue;
-}
 
-p{
-    padding:10px;
+figure, table, footer, h1, h2, h3, fieldset, form > p, legend, figure + p, .needsBackground, caption{
+    background-color: rgba(255,255,255,.5);
+    font-family: "Comic Sans MS", cursive;
 }
 
 footer{
@@ -59,26 +51,45 @@ footer{
     width: 10em;
 }
 
-/* ===================== Nav Section ===================== */
-nav ul li a{
-    padding:9% 30%;
-    text-decoration: none;
+footer{
+    grid-area: footer;
 }
 
-nav ul li{
-    display: inline-block;
-    list-style-type: none;
-    width:16.5%;
-    padding: 1% 0%;
+h1{
     text-align: center;
-    font-family: "Comic Sans MS", cursive;
+    color: blue;
 }
 
-
-nav ul{
-    padding:0;
-    text-align: justify;
+img{
     width:100%;
+}
+
+p{
+    padding:10px;
+}
+
+/* ===================== Nav Section ===================== */
+
+.activePage{
+    background-color: darkblue;
+}
+
+.activePage a{
+    animation: colorChange 0.9s ease 0.9s infinite;
+}
+
+figcaption, h2, h3{
+    text-align: center;
+}
+
+.mistake {
+    background-color: red;
+    text-align: center;
+    font-size: 2em;
+}
+
+nav{
+    grid-area: nav;
 }
 
 nav a{
@@ -92,17 +103,25 @@ nav a:hover{
     padding: 9% 40%;
 }
 
-
-figcaption, h2, h3{
-    text-align: center;
+nav ul{
+    padding:0;
+    text-align: justify;
+    width:100%;
 }
 
-.mistake {
-    background-color: red;
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    width:16.5%;
+    padding: 1% 0%;
     text-align: center;
-    font-size: 2em;
+    font-family: "Comic Sans MS", cursive;
 }
 
+nav ul li a{
+    padding:9% 30%;
+    text-decoration: none;
+}
 
 @keyframes colorChange{
     0%   {color: black}
@@ -110,15 +129,11 @@ figcaption, h2, h3{
     100%   {color: black}
 }
 
-.activePage a{
-    animation: colorChange 0.9s ease 0.9s infinite;
-}
-
-.activePage{
-    background-color: darkblue;
-}
-
 /* ===================== Index Section ========================== */
+
+header{
+    grid-area: header;
+}
 
 #index{
     display: grid;
@@ -137,15 +152,6 @@ figcaption, h2, h3{
     grid-area: table;
 }
 
-nav{
-    grid-area: nav;
-}
-
-header{
-    grid-area: header;
-}
-
-
 #index:nth-child(3){
     grid-area: mammals;
 }
@@ -162,18 +168,17 @@ header{
     grid-area: misc;
 }
 
-
-
-footer{
-    grid-area: footer;
-}
-
 /* ===================== Form Section ======================= */
 
-#form label {
-   width: 7em;
-   display: inline-block;
-   margin-right: 2em;    
+#form input[type=submit] {
+   width: 12em;
+   background-color: orange;
+   color: white;
+   padding: 1em;
+   margin: auto;
+   border: none;
+   border-radius: 7px;
+   cursor: pointer;
 }
 
 #form input[type=text], #form select {
@@ -185,15 +190,10 @@ footer{
    box-sizing: border-box;
 }
 
-#form input[type=submit] {
-   width: 12em;
-   background-color: orange;
-   color: white;
-   padding: 1em;
-   margin: auto;
-   border: none;
-   border-radius: 7px;
-   cursor: pointer;
+#form label {
+   width: 7em;
+   display: inline-block;
+   margin-right: 2em;    
 }
 
 /* ===================== Grid Stuff ======================== */
