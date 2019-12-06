@@ -97,8 +97,10 @@ figcaption, h2, h3{
     text-align: center;
 }
 
-#mistake{
+.mistake {
     background-color: red;
+    text-align: center;
+    font-size: 2em;
 }
 
 
