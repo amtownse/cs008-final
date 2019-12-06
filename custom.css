@@ -230,6 +230,12 @@ header{
     nav ul li{
         padding: 1% 5%;
     }
+    p {
+        font-size: .85em;
+    }
+    h1{
+        font-size: 1.6em;
+    }
 }
 
 @media all and (max-width: 500px) {
@@ -263,6 +269,21 @@ header{
             "table"
             "footer";
     }
+    p{
+        font-size: .9em;
+    }
+    h1 {
+        font-size: 1.4em;
+    }
+}
+
+@media all and (max-width: 350px) {
+    p{
+        font-size: .75em;
+    }
+    h1 {
+        font-size: 1em;;
+    }
 }
 
 @media all and (min-width: 1200px) {
@@ -276,5 +297,8 @@ header{
             "mammals fish birds misc"
             ". table table ."
             "footer footer footer footer";
+    }
+    p{
+        font-size: 1.2em;
     }
 }
