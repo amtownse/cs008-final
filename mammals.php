@@ -21,7 +21,7 @@ print PHP_EOL;
         </p>
         
         <!-- Maned Wolf image and info -->
-        <p>
+        <p class="needsBackground">
            The Maned Wolf is another mammal that is quite interesting. 
            These quick creatures are usually found within South America including Argentina, Brazil, and Paraguay. 
            Despite its name, the Maned Wolf is not actually a wolf, but a canid. 
