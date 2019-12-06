@@ -21,7 +21,7 @@ print PHP_EOL;
         </p>
         
         <!-- Frog info and image -->
-        <p>
+        <p class="needsBackground">
             Wallace’s Flying Frog, also known as the Abah River flying frog or parachute frogs, are a type of amphibian that has the ability to glide up to 50 feet.
             They acquired their name from a biologist named Alfred Wallace who was the first scientist to collect the specimen. 
             These small animals are usually found inhabiting dense jungles in Asia. 
