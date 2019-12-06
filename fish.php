@@ -19,7 +19,7 @@ print PHP_EOL;
         </p>
         
         <!-- Red-Lipped Batfish image and info -->
-        <p>
+        <p class="needsBackground">
             The Red-lipped Batfish is another fish that is quite unusual to see. 
             It is one of the many organisms that were named after scientist Charles Darwin. 
             This interesting fish is often found at depths of 10 to 200 feet within the waters near the Galapagos Islands, as well as off Peru’s coast.
