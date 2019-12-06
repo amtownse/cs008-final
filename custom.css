@@ -1,3 +1,4 @@
+/* ======================= Background Images ========================= */
 #birds {
     background-image: url("../images/sky.jpg");
 }
@@ -23,7 +24,7 @@
 }
 
 /* ====================== General Section =========================== */
-figure, table, footer, h1, h2, h3, fieldset, form > p, legend, figure + p, figure + p + p, .needsBackground{
+figure, table, footer, h1, h2, h3, fieldset, form > p, legend, figure + p, .needsBackground, caption{
     background-color: rgba(255,255,255,.5);
     font-family: "Comic Sans MS", cursive;
 }
@@ -176,7 +177,7 @@ footer{
 #form input[type=text], #form select {
    width: 20em;
    padding: 1em;
-   margin: 1em 0;
+   margin: auto;
    border: thin solid #aaa;
    border-radius: 7px;
    box-sizing: border-box;
