@@ -9,6 +9,12 @@
         print '"><a href="index.php">Home</a></li>';
         
         print '<li class="';
+        if ($path_parts['filename'] == "birds") {
+            print ' activePage ';
+        }
+        print '"><a href="birds.php">Birds</a></li>';
+        
+        print '<li class="';
         if ($path_parts['filename'] == "fish") {
             print ' activePage ';
         }
@@ -19,12 +25,6 @@
             print ' activePage ';
         }
         print '"><a href="mammals.php">Mammals</a></li>';
-        
-        print '<li class="';
-        if ($path_parts['filename'] == "birds") {
-            print ' activePage ';
-        }
-        print '"><a href="birds.php">Birds</a></li>';
         
         print '<li class="';
         if ($path_parts['filename'] == "misc") {
