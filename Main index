@@ -1,5 +1,3 @@
-        <p>Final Project</p>
-
         <ol>
             <li><a href="final/index.php">Final Project</a></li>
             <ul>
@@ -15,5 +13,7 @@
                 <li><a href="final/sql.php">SQL.php File</a></li>
                 <li><a href="final/css/custom.css">CSS File</a></li>
                 <li><a href="final/images/Final_Project_Wireframe.jpg">Wireframe</a></li>
+                <li><a href="final/images/database-table-for-form.png">Form Table</a></li>
+                <li><a href="final/images/database-table-for-table.png">Data Table</a></li>
             </ul>
         </ol>
