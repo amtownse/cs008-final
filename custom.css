@@ -23,7 +23,7 @@
 }
 
 /* ====================== General Section =========================== */
-figure, table, footer, h1, h2, h3, fieldset, form > p, legend, figure + p, p + p{
+figure, table, footer, h1, h2, h3, fieldset, form > p, legend, figure + p{
     background-color: rgba(255,255,255,.5);
     font-family: "Comic Sans MS", cursive;
 }
