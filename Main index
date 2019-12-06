@@ -1,1 +1,20 @@
-
+        <ol>
+            <li><a href="final/index.php">Final Project</a>
+                <ul>
+                    <li><a href="final/fish.php">Fish Page</a></li>
+                    <li><a href="final/mammals.php">Mammals Page</a></li>
+                    <li><a href="final/birds.php">Birds Page</a></li>
+                    <li><a href="final/misc.php">Misc Page</a></li>
+                    <li><a href="final/form.php">Form Page</a></li>
+                    <li><a href="final/top.php">Top.php File</a></li>
+                    <li><a href="final/nav.php">Nav.php File</a></li>
+                    <li><a href="final/header.php">Header.php File</a></li>
+                    <li><a href="final/footer.php">Footer.php File</a></li>
+                    <li><a href="final/sql.php">SQL.php File</a></li>
+                    <li><a href="final/css/custom.css">CSS File</a></li>
+                    <li><a href="final/images/Final_Project_Wireframe.jpg">Wireframe</a></li>
+                    <li><a href="final/images/database-table-for-form.png">Form Table</a></li>
+                    <li><a href="final/images/database-table-for-table.png">Data Table</a></li>
+                </ul>
+            </li>
+        </ol>
