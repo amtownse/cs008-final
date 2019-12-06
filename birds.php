@@ -21,7 +21,7 @@ print PHP_EOL;
         </p>
         
         <!-- Oilbird image and info -->
-        <p>
+        <p class="needsBackground">
           The oilbird is a very interesting bird in its own right. Also, it’s name makes it clear what one of the reasons 
           it is interesting is. It has a lot of oil. Infact local hunt the young birds and use their oil because when it burns 
           it does not give off any scent. However, this is one of the less interesting things about this bird. It is a 
